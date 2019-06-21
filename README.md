@@ -1,2 +1,2 @@
-# ugan-personal-site
+# usivagna.github.io
 Static Site for Personal Use
