@@ -22,6 +22,9 @@
   <!-- Custom styles for this template -->
   <link href="css/resume.min.css" rel="stylesheet">
 
+  <!-- Custom styles for image slider-->
+  <link type="text/css" href="css/before-after.min.css" rel="stylesheet">
+
 </head>
 
 <body id="page-top">
@@ -46,6 +49,9 @@
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#history">History</a>
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#travel">Travel</a>
@@ -168,13 +174,13 @@
           </div>
         </div>
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5 media">
           <div class="media-left">
               <a href="http://wlmac.ca/">
                 <img class="media-object img-fluid" src="img/Wlmac_logo.png" alt="">
               </a>
           </div>
-          <div class="resume-content">
+          <div class="resume-content media-object">
             <h3 class="mb-0">William Lyon Mackenzie Collegiate</h3>
             <div class="subheading mb-3">MaCS Program</div>
             <p>96% Cumulative Average</p>
@@ -189,19 +195,44 @@
 
     <hr class="m-0">
 
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="history">
+      <div class="w-100">
+        <h2 class="mb-5">History of Elia / Downsview </h2>
+        <div class="mb-4">
+          I grew up in the neighborhoods of Elia and Downsview from 1996 to 2014. These neighborhoods are part of a inner suburb in Toronto known as North York (formerly its own city until 1998). I spent much of my childhood in the Keele and Grandravine area. With a keen interest for history, I took a trip to the City Archives to research the area. The following section is a collection of photos comparing the neighborhoods in the 1960s (when a large amount of the development took place folowing World War II) to present day (2019).
+        </div>  
+        <div class="subheading mb-3">Frankton and Grandravine</div>
+        <div class="ba-slider mb-3">
+          <img src="http://i.imgur.com/BIHN8KQ.jpg">
+          <div class="resize">
+              <img src="http://i.imgur.com/nS6dvpq.jpg">
+          </div>
+          <span class="handle"></span>
+        </div>
+
+        <div class="subheading mb-3">Keele and Wilson</div>
+        <div class="ba-slider mb-3">
+          <img src="img/diner-old.jpg">
+          <div class="resize">
+              <img src="img/diner-new2.jpg">
+          </div>
+          <span class="handle"></span>
+        </div>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="travel">
       <div class="w-100">
         <h2 class="mb-5">Travel - Coming Soon!</h2>
 
         <div class="subheading mb-3">Asia 2019</div>
         <ul class="list-inline dev-icons">
+            <a href='https://photos.google.com/share/AF1QipNjEFBmhGjiRWzNyXydmYDyUMHrdRZRW8H4fyZYi5jc_X2P3AVhAUC4jxfdlzA7_g?key=OFhRZTR3T1Vfd0VTVGdzcG9QNjJWQTJUdmMwbXRn&source=ctrlq.org'><img class="img-fluid" src='https://lh3.googleusercontent.com/f6-Bt4MsF9oai9OKDnHqQ6EJsMTVzFXhDXmMBIXhlMG2Wfo-0Oo1ZatFnXdyPtKWMPnvmKvIUfEWFjrD-P8VGqnUxLKMkBh6QMPMj11SRAnp8ac6lymyG_9Qk4onKy7gM7zY8P17Ng=w2400' /></a>
         </ul>
 
         <div class="subheading mb-3">Seattle 2018</div>
-        <ul class="fa-ul mb-0">
-        </ul>
-
-        <div class="subheading mb-3">Growing Up in Toronto (1996 - 2019) </div>
         <ul class="fa-ul mb-0">
         </ul>
       </div>
@@ -248,6 +279,12 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/resume.min.js"></script>
+
+  <!-- Custom scripts for image slider-->
+  <script type="text/javascript" src="https://cdn.jotfor.ms/before-after/before-after.min.js"></script>
+  <script type="text/javascript">
+    $('.ba-slider').beforeAfter();
+  </script>
 
 </body>
 
