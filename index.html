@@ -10,6 +10,7 @@
 
   <title>Ugan Sivagnanenthirarajah</title>
   <link rel="shortcut icon" href="favicon.ico" />
+  <link rel='manifest' href='/manifest.json'>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -285,7 +286,12 @@
   <script type="text/javascript">
     $('.ba-slider').beforeAfter();
   </script>
+  
 
 </body>
-
+  <script type="module">
+    import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+    const el = document.createElement('pwa-update');
+    document.body.appendChild(el);
+  </script>
 </html>
