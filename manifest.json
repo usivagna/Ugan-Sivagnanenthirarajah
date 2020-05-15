@@ -6,12 +6,22 @@
     "display": "standalone",
     "start_url": "/",
     "short_name": "Ugan's Site",
-    "theme_color": "#5b7ad0",
+    "theme_color": "#009b00",
     "description": "A personal website that describes Ugan Sivagnanenthirarajah, and his interests.",
     "orientation": "Portrait",
-    "background_color": "#5b7ad0",
+    "background_color": "#009b00",
     "related_applications": "",
     "prefer_related_applications": false,
+    "screenshots": [
+        {
+            "sizes": "960x959",
+            "src": "screenshots/screenshot.png",
+            "type": "image/jpeg"
+        }
+    ],
+    "categories": [
+        "personalization"
+    ],
     "icons": [
         {
             "src": "icons/android/android-launchericon-144-144.png",
